@@ -1,0 +1,33 @@
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: 0.3s all;
+    &__primary {
+        background: blue;
+        color: white;
+        &:hover {
+            background: cyan;
+            border: 1px solid black;
+            color: black;
+        }
+    }
+    &__secondary {
+        color: white;
+        font-weight: bolder;
+        background: blue;
+        border: 1px solid lightblue;
+        &:hover {
+            border-radius: 30px;
+            font-weight: bolder;
+            background: darkblue;
+            color: white;
+        }
+    }
+}
